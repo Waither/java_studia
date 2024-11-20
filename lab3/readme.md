@@ -108,9 +108,7 @@ Reprezentacja graficzna:
 
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
     <style>
         .bar {
             display: flex;
@@ -130,8 +128,6 @@ Reprezentacja graficzna:
             text-align: center;
         }
     </style>
-</head>
-<body>
     <h1>Raport Pokrycia Testami - lab3</h1>
     <table>
         <thead>
