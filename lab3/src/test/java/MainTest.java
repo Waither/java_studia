@@ -8,7 +8,6 @@ public class MainTest {
 
     @Test
     void testMainExecution() {
-        // No exception should be thrown during the execution of the main method
         assertDoesNotThrow(() -> Main.main(new String[]{}));
     }
 }
