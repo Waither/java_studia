@@ -109,25 +109,6 @@ Reprezentacja graficzna:
 <!DOCTYPE html>
 <html lang="pl">
 <body>
-    <style>
-        .bar {
-            display: flex;
-            align-items: center;
-        }
-        .green {
-            background: #28a745;
-            height: 10px;
-            margin-right: 5px;
-        }
-        .red {
-            background: #dc3545;
-            height: 10px;
-            margin-right: 5px;
-        }
-        .ctr2, .ctr1 {
-            text-align: center;
-        }
-    </style>
     <h1>Raport Pokrycia Testami - lab3</h1>
     <table>
         <thead>
