@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         Color color1 = new Color(128, 0, 0, 0.4f);
         Color color2 = new Color(255, 128, 52);
