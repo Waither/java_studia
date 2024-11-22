@@ -1,38 +1,38 @@
-18:45:37.300 [main] INFO ShapeDescriber -- Opis figury:
-18:45:37.302 [main] INFO ShapeDescriber -- Typ figury: Rectangle
-18:45:37.304 [main] INFO ShapeDescriber -- Pole figury: 6.0
-18:45:37.304 [main] INFO ShapeDescriber -- Obwód figury: 10.0
-18:45:37.311 [main] INFO ShapeDescriber -- Kolor figury: Red: 128, Green: 0, Blue: 0, Alpha: 0,40
+[main] INFO ShapeDescriber - Opis figury:
+[main] INFO ShapeDescriber - Typ figury: Rectangle
+[main] INFO ShapeDescriber - Pole figury: 6.0
+[main] INFO ShapeDescriber - Obwód figury: 10.0
+[main] INFO ShapeDescriber - Kolor figury: Red: 128, Green: 0, Blue: 0, Alpha: 0,40
 
-18:45:37.311 [main] INFO ShapeDescriber -- Opis figury:
-18:45:37.311 [main] INFO ShapeDescriber -- Typ figury: Triangle
-18:45:37.311 [main] INFO ShapeDescriber -- Pole figury: 7.806247497997997
-18:45:37.311 [main] INFO ShapeDescriber -- Obwód figury: 13.0
-18:45:37.311 [main] INFO ShapeDescriber -- Kolor figury: Red: 255, Green: 128, Blue: 52, Alpha: 0,00
+[main] INFO ShapeDescriber - Opis figury:
+[main] INFO ShapeDescriber - Typ figury: Triangle
+[main] INFO ShapeDescriber - Pole figury: 7.806247497997997
+[main] INFO ShapeDescriber - Obwód figury: 13.0
+[main] INFO ShapeDescriber - Kolor figury: Red: 255, Green: 128, Blue: 52, Alpha: 0,00
 
-18:45:37.311 [main] INFO ShapeDescriber -- Opis figury:
-18:45:37.312 [main] INFO ShapeDescriber -- Typ figury: Rectangle
-18:45:37.312 [main] INFO ShapeDescriber -- Pole figury: 25.0
-18:45:37.312 [main] INFO ShapeDescriber -- Obwód figury: 20.0
-18:45:37.312 [main] INFO ShapeDescriber -- Kolor figury: Red: 0, Green: 255, Blue: 0, Alpha: 0,70
+[main] INFO ShapeDescriber - Opis figury:
+[main] INFO ShapeDescriber - Typ figury: Rectangle
+[main] INFO ShapeDescriber - Pole figury: 25.0
+[main] INFO ShapeDescriber - Obwód figury: 20.0
+[main] INFO ShapeDescriber - Kolor figury: Red: 0, Green: 255, Blue: 0, Alpha: 0,70
 
-18:45:37.312 [main] INFO ShapeDescriber -- Opis figury:
-18:45:37.312 [main] INFO ShapeDescriber -- Typ figury: Triangle
-18:45:37.312 [main] INFO ShapeDescriber -- Pole figury: 14.696938456699069
-18:45:37.312 [main] INFO ShapeDescriber -- Obwód figury: 18.0
-18:45:37.312 [main] INFO ShapeDescriber -- Kolor figury: Red: 0, Green: 0, Blue: 255, Alpha: 0,90
+[main] INFO ShapeDescriber - Opis figury:
+[main] INFO ShapeDescriber - Typ figury: Triangle
+[main] INFO ShapeDescriber - Pole figury: 14.696938456699069
+[main] INFO ShapeDescriber - Obwód figury: 18.0
+[main] INFO ShapeDescriber - Kolor figury: Red: 0, Green: 0, Blue: 255, Alpha: 0,90
 
-18:45:37.312 [main] INFO ShapeDescriber -- Opis figury:
-18:45:37.312 [main] INFO ShapeDescriber -- Typ figury: Rectangle
-18:45:37.312 [main] INFO ShapeDescriber -- Pole figury: 60.0
-18:45:37.312 [main] INFO ShapeDescriber -- Obwód figury: 31.0
-18:45:37.312 [main] INFO ShapeDescriber -- Kolor figury: Red: 255, Green: 255, Blue: 0, Alpha: 0,50
+[main] INFO ShapeDescriber - Opis figury:
+[main] INFO ShapeDescriber - Typ figury: Rectangle
+[main] INFO ShapeDescriber - Pole figury: 60.0
+[main] INFO ShapeDescriber - Obwód figury: 31.0
+[main] INFO ShapeDescriber - Kolor figury: Red: 255, Green: 255, Blue: 0, Alpha: 0,50
 
-18:45:37.312 [main] INFO ShapeDescriber -- Opis figury:
-18:45:37.312 [main] INFO ShapeDescriber -- Typ figury: Triangle
-18:45:37.312 [main] INFO ShapeDescriber -- Pole figury: 24.0
-18:45:37.312 [main] INFO ShapeDescriber -- Obwód figury: 24.0
-18:45:37.312 [main] INFO ShapeDescriber -- Kolor figury: Red: 128, Green: 128, Blue: 128, Alpha: 1,00
+[main] INFO ShapeDescriber - Opis figury:
+[main] INFO ShapeDescriber - Typ figury: Triangle
+[main] INFO ShapeDescriber - Pole figury: 24.0
+[main] INFO ShapeDescriber - Obwód figury: 24.0
+[main] INFO ShapeDescriber - Kolor figury: Red: 128, Green: 128, Blue: 128, Alpha: 1,00
 
 Rysowanie figury:
 Typ figury: Rectangle
@@ -49,7 +49,7 @@ Typ figury: Triangle
 Kolor figury: Red: 255, Green: 128, Blue: 52, Alpha: 0,00
 
 Reprezentacja graficzna:
-  * *
+* *
  * * * 
 * * * * * 
 
@@ -71,7 +71,7 @@ Typ figury: Triangle
 Kolor figury: Red: 0, Green: 0, Blue: 255, Alpha: 0,90
 
 Reprezentacja graficzna:
-   * *
+* *
   * * * * 
  * * * * * 
 * * * * * * * 
@@ -97,11 +97,15 @@ Typ figury: Triangle
 Kolor figury: Red: 128, Green: 128, Blue: 128, Alpha: 1,00
 
 Reprezentacja graficzna:
-    * *
+* *
    * * * * 
   * * * * * * 
  * * * * * * * * 
 * * * * * * * * * * 
+
+
+
+Process finished with exit code 0
 
 
 
