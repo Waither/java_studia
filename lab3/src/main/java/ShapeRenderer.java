@@ -25,9 +25,12 @@ public class ShapeRenderer {
 
     private void drawRectangle(Rectangle rectangle) {
         String colorCode = getColorCode(rectangle.color);
+
+        System.out.println(colorCode);
         for (int i = 0; i < (int)rectangle.height; i++) {
-            System.out.println(colorCode + "* ".repeat((int)rectangle.width) + resetColor());
+            System.out.println("* ".repeat((int)rectangle.width));
         }
+        System.out.println(resetColor());
     }
 
     private void drawTriangle(Triangle triangle) {
@@ -41,10 +44,12 @@ public class ShapeRenderer {
 
         String colorCode = getColorCode(triangle.color);
 
+        System.out.println(colorCode);
         for (int i = 1; i <= height; i++) {
             int stars = (int)Math.round((i * base) / height);
-            System.out.println(" ".repeat(height - i) + colorCode + "* ".repeat(stars) + resetColor());
+            System.out.println(" ".repeat(height - i) + "* ".repeat(stars));
         }
+        System.out.println(resetColor());
     }
 
     private String getColorCode(Color color) {

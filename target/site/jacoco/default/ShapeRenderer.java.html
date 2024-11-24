@@ -25,34 +25,39 @@
 
     private void drawRectangle(Rectangle rectangle) {
 <span class="fc" id="L27">        String colorCode = getColorCode(rectangle.color);</span>
-<span class="fc bfc" id="L28" title="All 2 branches covered.">        for (int i = 0; i &lt; (int)rectangle.height; i++) {</span>
-<span class="fc" id="L29">            System.out.println(colorCode + &quot;* &quot;.repeat((int)rectangle.width) + resetColor());</span>
+
+<span class="fc" id="L29">        System.out.println(colorCode);</span>
+<span class="fc bfc" id="L30" title="All 2 branches covered.">        for (int i = 0; i &lt; (int)rectangle.height; i++) {</span>
+<span class="fc" id="L31">            System.out.println(&quot;* &quot;.repeat((int)rectangle.width));</span>
         }
-<span class="fc" id="L31">    }</span>
+<span class="fc" id="L33">        System.out.println(resetColor());</span>
+<span class="fc" id="L34">    }</span>
 
     private void drawTriangle(Triangle triangle) {
-<span class="fc" id="L34">        double a = triangle.a;</span>
-<span class="fc" id="L35">        double b = triangle.b;</span>
-<span class="fc" id="L36">        double c = triangle.c;</span>
-<span class="fc" id="L37">        double base = Math.max(a, Math.max(b, c));</span>
-<span class="fc" id="L38">        double area = triangle.getArea();</span>
+<span class="fc" id="L37">        double a = triangle.a;</span>
+<span class="fc" id="L38">        double b = triangle.b;</span>
+<span class="fc" id="L39">        double c = triangle.c;</span>
+<span class="fc" id="L40">        double base = Math.max(a, Math.max(b, c));</span>
+<span class="fc" id="L41">        double area = triangle.getArea();</span>
 
-<span class="fc" id="L40">        int height = (int)Math.round((2 * area) / base);</span>
+<span class="fc" id="L43">        int height = (int)Math.round((2 * area) / base);</span>
 
-<span class="fc" id="L42">        String colorCode = getColorCode(triangle.color);</span>
+<span class="fc" id="L45">        String colorCode = getColorCode(triangle.color);</span>
 
-<span class="fc bfc" id="L44" title="All 2 branches covered.">        for (int i = 1; i &lt;= height; i++) {</span>
-<span class="fc" id="L45">            int stars = (int)Math.round((i * base) / height);</span>
-<span class="fc" id="L46">            System.out.println(&quot; &quot;.repeat(height - i) + colorCode + &quot;* &quot;.repeat(stars) + resetColor());</span>
+<span class="fc" id="L47">        System.out.println(colorCode);</span>
+<span class="fc bfc" id="L48" title="All 2 branches covered.">        for (int i = 1; i &lt;= height; i++) {</span>
+<span class="fc" id="L49">            int stars = (int)Math.round((i * base) / height);</span>
+<span class="fc" id="L50">            System.out.println(&quot; &quot;.repeat(height - i) + &quot;* &quot;.repeat(stars));</span>
         }
-<span class="fc" id="L48">    }</span>
+<span class="fc" id="L52">        System.out.println(resetColor());</span>
+<span class="fc" id="L53">    }</span>
 
     private String getColorCode(Color color) {
-<span class="fc" id="L51">        return String.format(&quot;\u001B[38;2;%d;%d;%dm&quot;, color.red(), color.green(), color.blue());</span>
+<span class="fc" id="L56">        return String.format(&quot;\u001B[38;2;%d;%d;%dm&quot;, color.red(), color.green(), color.blue());</span>
     }
 
     private String resetColor() {
-<span class="fc" id="L55">        return &quot;\u001B[0m&quot;;</span>
+<span class="fc" id="L60">        return &quot;\u001B[0m&quot;;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

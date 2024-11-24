@@ -5,4 +5,4 @@ lab3,default,Color,0,65,0,16,0,12,0,10,0,2
 lab3,default,Rectangle,0,29,0,0,0,8,0,3,0,3
 lab3,default,Triangle,0,56,0,0,0,10,0,3,0,3
 lab3,default,Main,3,150,0,0,1,29,1,1,1,1
-lab3,default,ShapeRenderer,0,169,0,10,0,33,0,12,0,7
+lab3,default,ShapeRenderer,0,176,0,10,0,37,0,12,0,7
